@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="33" passed="17" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-05T00:38:57 PDT" name="All Test Suite" finished-at="2023-04-05T00:42:14 PDT" duration-ms="196411">
+    <groups>
+    </groups>
+    <test started-at="2023-04-05T00:38:57 PDT" name="MyTest" finished-at="2023-04-05T00:42:14 PDT" duration-ms="196411">
+      <class name="Account">
+        <test-method signature="accountlist()[pri:0, instance:Account@69930714]" started-at="2023-04-05T00:41:43 PDT" name="accountlist" finished-at="2023-04-05T00:41:43 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountlist -->
+      </class> <!-- Account -->
+      <class name="Trade2History">
+        <test-method signature="TradeMain()[pri:0, instance:Trade2History@4b44655e]" started-at="2023-04-05T00:42:14 PDT" name="TradeMain" finished-at="2023-04-05T00:42:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TradeMain -->
+      </class> <!-- Trade2History -->
+      <class name="Messages">
+        <test-method is-config="true" signature="sign()[pri:0, instance:Messages@79ca92b9]" started-at="2023-04-05T00:40:35 PDT" name="sign" finished-at="2023-04-05T00:41:05 PDT" duration-ms="30952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method signature="contact()[pri:0, instance:Messages@79ca92b9]" started-at="2023-04-05T00:42:11 PDT" name="contact" finished-at="2023-04-05T00:42:12 PDT" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+      </class> <!-- Messages -->
+      <class name="Trade2">
+        <test-method signature="TradeMain()[pri:0, instance:Trade2@7ff95560]" started-at="2023-04-05T00:42:14 PDT" name="TradeMain" finished-at="2023-04-05T00:42:14 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TradeMain -->
+      </class> <!-- Trade2 -->
+      <class name="Income">
+        <test-method signature="income()[pri:0, instance:Income@2aa3cd93]" started-at="2023-04-05T00:42:14 PDT" name="income" finished-at="2023-04-05T00:42:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- income -->
+      </class> <!-- Income -->
+      <class name="Activity">
+        <test-method is-config="true" signature="sign()[pri:0, instance:Activity@8909f18]" started-at="2023-04-05T00:38:57 PDT" name="sign" finished-at="2023-04-05T00:39:29 PDT" duration-ms="31341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method signature="activity1()[pri:0, instance:Activity@8909f18]" started-at="2023-04-05T00:42:05 PDT" name="activity1" finished-at="2023-04-05T00:42:11 PDT" duration-ms="5351" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div disabled="" class="sc-hixjlP byeFzj">...</div> is not clickable at point (609, 502). Other element would receive the click: <div class="sc-eZceyY cTpnwa">...</div>
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f47fff843cec61afefd4d62cee1a7b23, clickElement {id=6ddb866e-f75a-41c3-849d-7c8521d01f6c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\SasiKumJ\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51507/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f47fff843cec61afefd4d62cee1a7b23)] -> xpath: //*[@id='rootGridContainer']/div[3]/div/div/div[3]/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[3]/div[1]/div]
+Session ID: f47fff843cec61afefd4d62cee1a7b23]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div disabled="" class="sc-hixjlP byeFzj">...</div> is not clickable at point (609, 502). Other element would receive the click: <div class="sc-eZceyY cTpnwa">...</div>
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f47fff843cec61afefd4d62cee1a7b23, clickElement {id=6ddb866e-f75a-41c3-849d-7c8521d01f6c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\SasiKumJ\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51507/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f47fff843cec61afefd4d62cee1a7b23)] -> xpath: //*[@id='rootGridContainer']/div[3]/div/div/div[3]/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[3]/div[1]/div]
+Session ID: f47fff843cec61afefd4d62cee1a7b23
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at Activity.activity1(Activity.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activity1 -->
+      </class> <!-- Activity -->
+      <class name="Tax">
+        <test-method signature="credit()[pri:0, instance:Tax@7ea37dbf]" started-at="2023-04-05T00:42:14 PDT" name="credit" finished-at="2023-04-05T00:42:14 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit -->
+      </class> <!-- Tax -->
+      <class name="Contact">
+        <test-method is-config="true" signature="sign()[pri:0, instance:Contact@1460a8c0]" started-at="2023-04-05T00:39:29 PDT" name="sign" finished-at="2023-04-05T00:39:53 PDT" duration-ms="24829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method signature="contact()[pri:0, instance:Contact@1460a8c0]" started-at="2023-04-05T00:42:12 PDT" name="contact" finished-at="2023-04-05T00:42:14 PDT" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+      </class> <!-- Contact -->
+      <class name="Trade">
+        <test-method signature="credit()[pri:0, instance:Trade@1198b989]" started-at="2023-04-05T00:42:14 PDT" name="credit" finished-at="2023-04-05T00:42:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit -->
+      </class> <!-- Trade -->
+      <class name="PerformanceReports">
+        <test-method signature="Performance()[pri:0, instance:PerformanceReports@2cbb3d47]" started-at="2023-04-05T00:42:14 PDT" name="Performance" finished-at="2023-04-05T00:42:14 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Performance -->
+      </class> <!-- PerformanceReports -->
+      <class name="MonthlyStatements">
+        <test-method signature="credit()[pri:0, instance:MonthlyStatements@6e75aa0d]" started-at="2023-04-05T00:42:14 PDT" name="credit" finished-at="2023-04-05T00:42:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit -->
+      </class> <!-- MonthlyStatements -->
+      <class name="CreditDocuments">
+        <test-method signature="creditDoc()[pri:0, instance:CreditDocuments@4f638935]" started-at="2023-04-05T00:42:14 PDT" name="creditDoc" finished-at="2023-04-05T00:42:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditDoc -->
+      </class> <!-- CreditDocuments -->
+      <class name="Holdings">
+        <test-method is-config="true" signature="sign()[pri:0, instance:Holdings@78047b92]" started-at="2023-04-05T00:39:53 PDT" name="sign" finished-at="2023-04-05T00:40:35 PDT" duration-ms="41093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method signature="holdings()[pri:0, instance:Holdings@78047b92]" started-at="2023-04-05T00:41:43 PDT" name="holdings" finished-at="2023-04-05T00:42:05 PDT" duration-ms="22123" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="rootGridContainer"]/div[3]/div/div/div[3]/button"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d33ca877f241457d325284b9547cdd1, findElement {using=xpath, value=//*[@id="rootGridContainer"]/div[3]/div/div/div[3]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\SasiKumJ\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51592/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d33ca877f241457d325284b9547cdd1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="rootGridContainer"]/div[3]/div/div/div[3]/button"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d33ca877f241457d325284b9547cdd1, findElement {using=xpath, value=//*[@id="rootGridContainer"]/div[3]/div/div/div[3]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\SasiKumJ\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51592/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d33ca877f241457d325284b9547cdd1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at Holdings.holdings(Holdings.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holdings -->
+      </class> <!-- Holdings -->
+      <class name="Documents">
+        <test-method signature="credit()[pri:0, instance:Documents@add0edd]" started-at="2023-04-05T00:42:14 PDT" name="credit" finished-at="2023-04-05T00:42:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit -->
+      </class> <!-- Documents -->
+      <class name="Summary">
+        <test-method is-config="true" signature="sign()[pri:0, instance:Summary@5e4c8041]" started-at="2023-04-05T00:41:05 PDT" name="sign" finished-at="2023-04-05T00:41:34 PDT" duration-ms="28331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method signature="SummaryPage()[pri:0, instance:Summary@5e4c8041]" started-at="2023-04-05T00:41:34 PDT" name="SummaryPage" finished-at="2023-04-05T00:41:43 PDT" duration-ms="9094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryPage -->
+      </class> <!-- Summary -->
+      <class name="OpenOrderConfirmation">
+        <test-method signature="credit()[pri:0, instance:OpenOrderConfirmation@7fc229ab]" started-at="2023-04-05T00:42:14 PDT" name="credit" finished-at="2023-04-05T00:42:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit -->
+      </class> <!-- OpenOrderConfirmation -->
+      <class name="Share">
+        <test-method signature="shareholder()[pri:0, instance:Share@527e5409]" started-at="2023-04-05T00:42:14 PDT" name="shareholder" finished-at="2023-04-05T00:42:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareholder -->
+      </class> <!-- Share -->
+      <class name="Balance">
+        <test-method signature="accountlist()[pri:0, instance:Balance@7a52f2a2]" started-at="2023-04-05T00:41:43 PDT" name="accountlist" finished-at="2023-04-05T00:41:43 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountlist -->
+      </class> <!-- Balance -->
+      <class name="CreditPlus">
+        <test-method signature="credit()[pri:0, instance:CreditPlus@4387b79e]" started-at="2023-04-05T00:42:14 PDT" name="credit" finished-at="2023-04-05T00:42:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit -->
+      </class> <!-- CreditPlus -->
+    </test> <!-- MyTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

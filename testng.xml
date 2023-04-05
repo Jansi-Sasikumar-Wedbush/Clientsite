@@ -1,0 +1,55 @@
+
+
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+        <suite name="All Test Suite">
+
+
+        <test name="MyTest">
+
+
+        <classes>
+
+        <class name="Summary"/>
+
+        <class name="Account"/>
+
+        <class name="Balance"/>
+
+        <class name="Holdings"/>
+
+        <class name="Activity"/>
+
+        <class name="Messages"/>
+
+        <class name="Contact"/>
+
+        <class name="CreditDocuments"/>
+
+        <class name="CreditPlus"/>
+
+        <class name="MonthlyStatements"/>
+
+        <class name="OpenOrderConfirmation"/>
+
+        <class name="PerformanceReports"/>
+
+        <class name="Share"/>
+
+        <class name="Trade"/>
+
+        <class name="Trade2"/>
+
+        <class name="Documents"/>
+
+        <class name="Income"/>
+
+        <class name="Tax"/>
+
+        <class name="Trade2History"/>
+
+    </classes>
+
+    </test>
+
+    </suite>
